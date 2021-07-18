@@ -1,0 +1,90 @@
+ul {
+    list-style: none;
+    padding:0;
+  }
+li{
+  cursor: pointer;
+}  
+  .button{
+    box-shadow: 1px 2px 2px -2px;
+    border: 1px solid #ebebeb;
+    /* width: 100%; */
+    line-height: 24px;
+    padding:10px;
+    margin: 10px 0px;
+    /* text-align: center; */
+}
+.under{
+    background: linear-gradient(transparent 70%, #f7ff4e 50%);
+    /* text-align: left; */
+    display: inline-block;
+}
+
+.blue{
+  background-color:#08B3F0;
+  color: #ebebeb;
+}
+
+.red{
+  background-color:#FD6647;
+  color: #ebebeb;
+
+}
+.hako2{
+  box-shadow: 1px 2px 2px -2px;
+  border: 1px solid #ebebeb;
+  width: 100%;
+  height:80px;
+  padding: 10px;
+ background-color: #fff; /* 背景色 */
+ border: 1px solid #ccc; /* 枠線 */
+ box-sizing: border-box;
+ 
+}
+
+.seikai1{background: linear-gradient(transparent 70%, #08b3f0 80%);
+  /* text-align: left; */
+  display: inline-block;
+  font-weight:800;
+}
+.huseikai1{background: linear-gradient(transparent 70%, #fd6647 80%);
+  /* text-align: left; */
+  display: inline-block;
+  font-weight:800;
+}
+p{
+  margin: 3px;
+}
+
+/* .picture{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin:0 auto;
+  width: 50%;
+} */
+#si{
+  padding: 13px;
+}
+.mainvisual{
+  /* text-align: center; */
+  margin:0 auto;
+  width: 50%;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+  width: 80vw;
+  /* margin:0 auto;
+  width: 50%; */
+}
+body{
+  min-width: 500px;
+  margin: 0;
+  max-width: 2000px;
+}
+.cantclick{
+  pointer-events: none;
+}
