@@ -15,5 +15,18 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('hello','HelloController@index');
-Route::get('hello/other','HelloController@other');
+Route::get('quiz/{area_id}','QuestionsController@index');
+
+
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
