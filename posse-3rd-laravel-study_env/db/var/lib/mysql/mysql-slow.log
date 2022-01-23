@@ -40,3 +40,46 @@ Time                 Id Command    Argument
 /usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
 Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
 Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2022-01-06T21:29:04.956156-00:00
+# User@Host: laravel[laravel] @  [172.21.0.5]  Id:    16
+# Query_time: 1.082605  Lock_time: 0.002489 Rows_sent: 0  Rows_examined: 0
+use laravel;
+SET timestamp=1641504543;
+create table `users` (`id` bigint unsigned not null auto_increment primary key, `name` varchar(255) not null, `email` varchar(255) not null, `email_verified_at` timestamp null, `password` varchar(255) not null, `remember_token` varchar(100) null, `created_at` timestamp null, `updated_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci';
+# Time: 2022-01-06T21:29:07.274082-00:00
+# User@Host: laravel[laravel] @  [172.21.0.5]  Id:    16
+# Query_time: 1.532639  Lock_time: 0.037272 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1641504545;
+create table `password_resets` (`email` varchar(255) not null, `token` varchar(255) not null, `created_at` timestamp null) default character set utf8mb4 collate 'utf8mb4_unicode_ci';
+# Time: 2022-01-06T21:39:26.631531-00:00
+# User@Host: laravel[laravel] @  [172.21.0.5]  Id:    21
+# Query_time: 1.093898  Lock_time: 0.002266 Rows_sent: 0  Rows_examined: 0
+SET timestamp=1641505165;
+create table `questitons` (`id` bigint unsigned not null auto_increment primary key, `area_id` bigint unsigned not null comment 'エリアid', `question_number` int not null comment '問題番号', `img` varchar(255) not null comment '地名画像', `name` varchar(255) not null comment '問題文', `commentary` varchar(255) not null comment '解説') default character set utf8mb4 collate 'utf8mb4_unicode_ci';
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+/usr/sbin/mysqld, Version: 8.0.27 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
