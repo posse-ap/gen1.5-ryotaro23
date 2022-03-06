@@ -16,7 +16,7 @@
         <h2> <span class="under"> {{$question->question_number}}. この地名はなんて読む？</span></h2>
       
         <div class="picture">
-        <img src="{{asset('/img/'.$question->img)}}" alt="画像">
+        <img src="{{asset('storage/img/'.$question->img)}}" alt="画像">
         </div>
         <ul>
         @foreach($question->choices->shuffle() as $choice)
@@ -29,7 +29,7 @@
         </ul>
         <div id="answerbox_{{ $question->id }}" class="answerbox">
         <p id="TorF_{{ $question->id }}"class="TorF"></p>
-        <p id="answer_{{ $question->id }}" class="answer_comment">{{$question->commentary}}</p>
+        <p id="answer_{{ $question->id }}" class="answer_comment">正解は「{{$question->name}}」です</p>
         </div>
     @endforeach
     </div>

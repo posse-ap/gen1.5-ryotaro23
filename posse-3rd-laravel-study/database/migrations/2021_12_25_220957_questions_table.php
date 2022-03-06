@@ -24,7 +24,7 @@ class QuestionsTable extends Migration
             $table->integer('question_number')->nullable(false)->comment('問題番号');
             $table->string('img')->nullable(false)->comment('地名画像');
             $table->string('name')->nullable(false)->comment('問題文');
-            $table->string('commentary')->nullable(false)->comment('解説');
+            $table->string('commentary')->nullable(true)->comment('解説');
         });
     }
 
